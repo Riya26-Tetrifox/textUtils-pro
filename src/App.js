@@ -35,7 +35,7 @@ type:type})
   }
   return (
     <>
-    <Router basename="/textutils">
+    <Router basename="/textUtils-pro">
 <Navbar title="TEXTY" aboutTitle="about text" mode={mode} toggleMode={toggleMode} />
   <Alert alert={alert}></Alert>
   <div className="container my-3">
