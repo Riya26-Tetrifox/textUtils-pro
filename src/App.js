@@ -35,15 +35,15 @@ type:type})
   }
   return (
     <>
-    <Router basename='/'>
+    <Router basename="/textutils">
 <Navbar title="TEXTY" aboutTitle="about text" mode={mode} toggleMode={toggleMode} />
   <Alert alert={alert}></Alert>
   <div className="container my-3">
   <Routes>
-    <Route  path="/about" element={<About/>}>
+    <Route  exact path="/about" element={<About/>}>
     
     </Route>
-    <Route  path="/" element={<TextForm heading="enter the text here" mode={mode} showAlert={showAlert}/>}>
+    <Route  exact path="/" element={<TextForm heading="enter the text here" mode={mode} showAlert={showAlert}/>}>
     
     </Route>
   </Routes>
