@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-$ite is live at https://riya26-tetrifox.github.io/reacthai1/
+$ite is live at https://riya26-tetrifox.github.io/textUtils-pro/
 
 ## Available Scripts
 
